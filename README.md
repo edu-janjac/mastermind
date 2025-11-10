@@ -40,3 +40,11 @@ Korrekt rad var: 6767
 när spelet är slut:
 Vill du spela igen (j/n) -> j (spelar igen)
 -> n (avslutar programet)
+
+funktioner:
+main
+random tal - random
+gissning av tal - input från användare
+checkning av gissning och tal - if bla bla bla
+print gissningarna och resultat - print(f"") med updatering (loop)
+spela igen - loop programet
