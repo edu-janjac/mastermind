@@ -1,1 +1,42 @@
 # mastermind
+
+vad som behövs:
+random 4 tal (1-6)
+input för gissning
+checkmark för rätt siffra rätt ställa (vet inte plats)
+box för rätt siffra fel ställe
+2 svårighetsgrader:
+1 - inte upprepande siffror
+2 - kan vara upprepande siffror
+
+([] = box, {} = checkmark)
+ska ha output:
+Drag # Drag Feedback
+
+---
+
+1 gissning
+2 6 4 5 3 [][]{}
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+Ange gissning som föjld av 4 siffror -> (input ny gissning)
+
+Om vinst:
+Du vann!
+
+Om förlust:
+Atans du hade råkade ha fel, aja bättre lycka nästa gång!
+Korrekt rad var: 6767
+
+när spelet är slut:
+Vill du spela igen (j/n) -> j (spelar igen)
+-> n (avslutar programet)
