@@ -48,3 +48,6 @@ gissning av tal - input från användare
 checkning av gissning och tal - if bla bla bla
 print gissningarna och resultat - print(f"") med updatering (loop)
 spela igen - loop programet
+
+//Logg 2025-11-13
+vi har gjort arbete och ska fortsätta med error vid svårighetsgrad nästa gång
