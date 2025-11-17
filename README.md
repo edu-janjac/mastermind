@@ -51,3 +51,9 @@ spela igen - loop programet
 
 //Logg 2025-11-13
 vi har gjort arbete och ska fortsätta med error vid svårighetsgrad nästa gång
+
+easy:
+om nytt nummer = nummer innan, gör nytt nummer, repetera tills 4 siffror
+
+//Logg 2025-11-17
+har gjort klart error och gjort klart hur man väljer svårighetsgrad och generarar olika kod beroende på vilken svårighetsgrad det är. nästa gång kolla om användare har gissat rätt/själva spel delen
