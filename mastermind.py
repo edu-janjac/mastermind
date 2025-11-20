@@ -7,15 +7,19 @@ def rules():
     print("Datorn kommer att slumpa fram en kod på fyra siffror mellan 1 och 6.")
     print("Du ska försöka gissa denna kods siffror på max 12 drag.")
     print("Efter respektive gissning korrekt siffra på rätt plats i koden: ✅")
-    print("Efter respektive gissning korrekt siffra på fel plats i koden: 🟥")
+    print("Efter respektive gissning korrekt siffra på fel plats i koden: 🌫️")
     print("För de siffror som inte finns med i koden ges ingen markering.\n")
     print("Exempel: om den slumpande koden är 2315\noch du gissar 3165\nså blir responsen: \n")
 
 def difficulty():
     print("Du får välja mellan 2 svårighetsgrader:\nLättare: Alla siffror är olika\nSvårare: Det kan finnas flera av samma siffra\n")
-    diff = int(input("Välj svårighetsgrad: Lätt(1), Svår(2) -> "))
-    if diff != 1 and diff != 2:
-        error_wrong()
+    i = 0
+    while i < 1:
+        diff = int(input("Välj svårighetsgrad: Lätt(1), Svår(2) -> "))
+        if diff != 1 and diff != 2:
+            error_wrong()
+        else:
+            i += 1
     return diff
 
 def random_number():
@@ -43,8 +47,26 @@ def hard():
     return order
 
 def get_guess():
-    guess = int(input("Gissning (4 siffror): ")).split()
-    return guess
+    i = 0
+    while i < 1:
+        guess = input("Gissning (4 siffror): ").split()
+        if guess.isdigit() is True:
+            guess(int(guess))
+            return guess
+            i += 1
+        else:
+            error_wrong()
+
+def layout():
+    print("Drag #       Drag        Feedback")
+    print("--------------------------------------------\n")
+
+def layout_round():
+    i = 0
+    runda = 12
+    while i <= 11:
+        print(runda - 1"\n")
+        
 
 def main():
     rules()
@@ -52,7 +74,10 @@ def main():
         order = easy()
     else:
         order = hard()
-    guess = 
-    if guess == :
+    guess = get_guess()
+    i = 0
+    while i <= 11:
+
+        if guess == :
 
 main()

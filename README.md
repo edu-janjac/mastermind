@@ -34,7 +34,7 @@ Om vinst:
 Du vann!
 
 Om förlust:
-Atans du hade råkade ha fel, aja bättre lycka nästa gång!
+Attans du hade råkade ha fel, aja bättre lycka nästa gång!
 Korrekt rad var: 6767
 
 när spelet är slut:
@@ -57,3 +57,8 @@ om nytt nummer = nummer innan, gör nytt nummer, repetera tills 4 siffror
 
 //Logg 2025-11-17
 har gjort klart error och gjort klart hur man väljer svårighetsgrad och generarar olika kod beroende på vilken svårighetsgrad det är. nästa gång kolla om användare har gissat rätt/själva spel delen
+
+kolla om input är samma som guess
+
+//Logg 2025-11-20
+håller på med layouten för rundor och så och har problem med hur man ska få ut gissningarna och att kolla om det stämmer överens med själva talet, vet inte hur man ska fixa det.
