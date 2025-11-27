@@ -62,3 +62,19 @@ kolla om input är samma som guess
 
 //Logg 2025-11-20
 håller på med layouten för rundor och så och har problem med hur man ska få ut gissningarna och att kolla om det stämmer överens med själva talet, vet inte hur man ska fixa det.
+
+kollar om input är samma
+
+//Logg 2025-11-24
+håller på med guess funktionen/filen för att se till så att användaren inte kan skicka in något annat än siffrorna 1 - 6. trodde jag hade fixat det men hittade en bug där man kan skriva in en bokstav som gissning, programet säger att det är fel men returnerar ändå reseten om de finns andra gissningar.
+
+tar in koden, tar in gissning, kollar om det finns likheter i list, om ja vilka, kolla index om det är samma, om ja --> grön, annars --> grå
+
+får likheter, ersätter alla andra i listan med " ", kolla index för att se om ordning/plats är rätt
+
+kolla att du INTE callar en funktion flera gånger
+
+bug, error om du skriver in något annat än siffra i difficulty
+
+//Logg 2025-11-27
+har gjort så att det finns en check guess funktion som kollar om man har gissat rätt på något och ger tillbaka rätt respons. har inte gjort så det loopar så man kan gissa 12 gånger. har kopplat alla python filar så de hänger ihop. det som är kvar är att göra så man kan gissa 12 gånger, flera error meddelanden så användaren kan förstå vad som är fel med deras input, layout och så man kan välja att spela igen. även namn bytten på filer, variablar och funktioner så att de är lättare att förstå, och kommentarer i koden så man kan läsa vad som är vad.
