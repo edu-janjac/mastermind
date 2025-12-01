@@ -78,3 +78,20 @@ bug, error om du skriver in något annat än siffra i difficulty
 
 //Logg 2025-11-27
 har gjort så att det finns en check guess funktion som kollar om man har gissat rätt på något och ger tillbaka rätt respons. har inte gjort så det loopar så man kan gissa 12 gånger. har kopplat alla python filar så de hänger ihop. det som är kvar är att göra så man kan gissa 12 gånger, flera error meddelanden så användaren kan förstå vad som är fel med deras input, layout och så man kan välja att spela igen. även namn bytten på filer, variablar och funktioner så att de är lättare att förstå, och kommentarer i koden så man kan läsa vad som är vad.
+
+kvar att göra:
+du kan vinna/förlora
+layout
+kör igen
+kommentarer (i koden)
+
+notering för layout:
+ska börja nedifrån och upp som ett riktigt mastermind bräde
+
+har bara kvar layout 😊
+
+måste göra så att man inte vet vilken som är rätt på rätt plats, osv
+måste sort så att alla ✅ är först sen 🌫️
+
+//Logg 2025-12-01
+vi är snart klara och har gjort så att man kan förlora och vinna samt gjort så att man kan köra om, om man vill. det har gått ganska felfritt under lektionen, hade några få buggar där man inte kunde köra om även om man valde det, men vi fixade det genom att sätta i = 0 igen så funkade det. vi har bara layout och sortering av checkmarks och grå så att det blir lite svårare, samt att göra så det inte printas ut en lista för det är lite fult.

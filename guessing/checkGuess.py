@@ -1,10 +1,9 @@
 from guessing.getGuess import get_guess
 from da_code.code import code
 
-def check_guess():
+def check_guess(da_code):
     i = 0
     marks = []
-    da_code = code()
     code_change = da_code.copy()
     guess = get_guess()
     while i < 3:
