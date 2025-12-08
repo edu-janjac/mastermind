@@ -1,7 +1,6 @@
-from da_code.difficulty import difficulty
-from da_code.difficulty import easy
-from da_code.difficulty import hard
+from da_code.difficulty import difficulty, easy, hard
 
+#gör koden beroende på vald svårighetsgrad
 def code():
     diff = difficulty()
     if diff == 1:

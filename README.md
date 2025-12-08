@@ -95,3 +95,13 @@ måste sort så att alla ✅ är först sen 🌫️
 
 //Logg 2025-12-01
 vi är snart klara och har gjort så att man kan förlora och vinna samt gjort så att man kan köra om, om man vill. det har gått ganska felfritt under lektionen, hade några få buggar där man inte kunde köra om även om man valde det, men vi fixade det genom att sätta i = 0 igen så funkade det. vi har bara layout och sortering av checkmarks och grå så att det blir lite svårare, samt att göra så det inte printas ut en lista för det är lite fult.
+
+för layout append gissning för att sen printa ut
+
+//Logg 2025-12-05 och 08
+under fredags lektionen höll vi på med layouten och små buggar vilket var bl.a att du hamnade i en loop om du satte något annat än j eller n när programmet frågade om man ville köra igen. kom inte jättelångt med layouten under lektionen, kunde inte klura ut hur man skulle kunna få ut gissningarna och markeringarna på ett sätt så att man inte behöver skriva för många print-satser.
+
+under måndages lektion fick vi fart på det och lyckades klara det. stötte på en störig bugg dock som bara var estetisk vilket var att när programmet printade ut markeringarna som var rätt fast på fel plats (🌫️) så var det till synes inget mellanrum mellan de om det fanns 2 som nuddade varandra i jämförslse med en checkmark (✅). löste det genom att bara byta ut teckna och nu ser det bra ut. har även skrivit kommentarer i alla filer så att man kan förstå vad koden betyder/vad den gör. har även tagit bort test-filerna för att de använts inte något mer.
+
+vi är nu helt klara med projektet,
+mvh jacob, felix och arvid
