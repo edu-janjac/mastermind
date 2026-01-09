@@ -105,3 +105,6 @@ under måndages lektion fick vi fart på det och lyckades klara det. stötte på
 
 vi är nu helt klara med projektet,
 mvh jacob, felix och arvid
+
+uppdatering:
+har nu hittat vad som var fel med den easy versionen vilket var att funktionen difficulty returnerar en sträng medan code förväntar en int, sen om det inte var 1 så gick den vidare till hard. har även gjort ändringar på layout och checkguess så de fungerar nu också
